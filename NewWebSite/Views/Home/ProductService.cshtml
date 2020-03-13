@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewBag.Title = "ProductService";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .col-md-4 img{
+        width:100%;
+    }
+    .example {
+        position: relative;
+        padding: 0;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .content {
+        opacity: 0;
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #000000;
+        background-color: rgba(200,200,200,0.5);
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+    }
+    .example .content:hover {
+        opacity: 1;
+    }
+
+    .example .content .text {
+        height: 0;
+        opacity: 1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+    }
+
+    .example .content:hover .text {
+        opacity: 1;
+        transform: translateY(250px);
+        -webkit-transform: translateY(250px);
+    }
+</style>
+<div class="services">
+    <div class="container">
+        <div class="text-center">
+            <div class="services-box">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+                    <h2>สินค้าและบริการ</h2>
+                </div>
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+                    <p>ค้นหาบรรจุภัณฑ์คุณภาพที่ใส่ใจสิ่งแวดล้อมสำหรับอาหาร เครื่องดื่ม สินค้าอุปโภคบริโภค และสินค้าอื่น ๆ</p>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="wow fadeInDown example" data-wow-offset="0" data-wow-delay="0.3s">
+                        <img src="~/images/product_lander/landing-1.jpg"  />
+                       <div class="content">
+                           <div class="text">
+                               <div style="padding:10px;">
+                                   ผลิตภัณฑ์
+                               </div>
+                               <div>
+                                   <button type="button" class="btn btn-default">ดูเพิ่มเติม</button>
+                               </div>
+                               
+                           </div>
+                       </div>
+                    </div>
+                    @*<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                        <h4>Retina Ready</h4>
+                        <p>Cras urna felis accumsan at ultricesid posuere masa um socisd natoque penatibus magnisd</p>
+                    </div>*@
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wow fadeInDown example" data-wow-offset="0" data-wow-delay="0.9s">
+                        <img src="~/images/product_lander/landing-2.jpg" />
+                        <div class="content">
+                            <div class="text">
+                                <div style="padding:10px;">
+                                    รูปแบบบรรจุภัณฑ์
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-default">ดูเพิ่มเติม</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                        <h4>Responsive</h4>
+                        <p>Cras urna felis accumsan at ultricesid posuere masa um socisd natoque penatibus magnisd</p>
+                    </div>*@
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wow fadeInDown example" data-wow-offset="0" data-wow-delay="1.5s">
+                        <img src="~/images/product_lander/landing-3.jpg" />
+                        <div class="content">
+                            <div class="text">
+                                <div style="padding:10px;">
+                                    บริการ
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-default">ดูเพิ่มเติม</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.5s">
+                        <h4>Free Support</h4>
+                        <p>Cras urna felis accumsan at ultricesid posuere masa um socisd natoque penatibus magnisd</p>
+                    </div>*@
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
