@@ -16,10 +16,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/NewWebSite.dll">
-      <publishTime>03/12/2020 10:05:45</publishTime>
+      <publishTime>03/13/2020 14:25:27</publishTime>
     </File>
     <File Include="bin/NewWebSite.pdb">
-      <publishTime>03/12/2020 10:05:45</publishTime>
+      <publishTime>03/13/2020 14:25:27</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -160,22 +160,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>02/01/2018 12:16:32</publishTime>
+      <publishTime>01/02/2018 12:16:32</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>02/01/2018 12:16:56</publishTime>
+      <publishTime>01/02/2018 12:16:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.Deployment.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.Razor.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="contactform/contactform.js">
       <publishTime>03/10/2020 09:39:59</publishTime>
@@ -292,7 +292,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2020 09:39:59</publishTime>
     </File>
     <File Include="images/about_02.jpg">
-      <publishTime>07/10/2019 12:24:06</publishTime>
+      <publishTime>10/07/2019 12:24:06</publishTime>
     </File>
     <File Include="images/blog/avatar.jpg">
       <publishTime>03/10/2020 09:39:59</publishTime>
@@ -377,6 +377,36 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="images/Innovition/innovation_icon_hand.png">
       <publishTime>03/12/2020 09:16:50</publishTime>
+    </File>
+    <File Include="images/Investor/about_03.jpg">
+      <publishTime>03/12/2020 16:11:50</publishTime>
+    </File>
+    <File Include="images/Investor/about_04.jpg">
+      <publishTime>03/12/2020 16:12:12</publishTime>
+    </File>
+    <File Include="images/Investor/award_about.jpg">
+      <publishTime>03/12/2020 16:12:43</publishTime>
+    </File>
+    <File Include="images/Investor/culture_1.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/culture_2.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/culture_3.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/culture_4.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/culture_5.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/culture_6.png">
+      <publishTime>03/12/2020 16:14:23</publishTime>
+    </File>
+    <File Include="images/Investor/service-map.png">
+      <publishTime>03/12/2020 16:11:17</publishTime>
     </File>
     <File Include="images/logo_01.png">
       <publishTime>03/10/2020 11:45:05</publishTime>
@@ -667,19 +697,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/11/2020 11:08:54</publishTime>
     </File>
     <File Include="Views/Home/Inovetion.cshtml">
-      <publishTime>03/12/2020 16:02:43</publishTime>
+      <publishTime>03/13/2020 11:32:32</publishTime>
+    </File>
+    <File Include="Views/Home/InvestorRelations.cshtml">
+      <publishTime>03/13/2020 15:08:21</publishTime>
     </File>
     <File Include="Views/Home/ProductService.cshtml">
       <publishTime>03/11/2020 15:24:29</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/11/2020 17:31:43</publishTime>
+      <publishTime>03/12/2020 16:09:44</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>03/10/2020 09:37:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/11/2020 09:37:41</publishTime>
+      <publishTime>03/13/2020 15:09:27</publishTime>
     </File>
   </ItemGroup>
 </Project>
